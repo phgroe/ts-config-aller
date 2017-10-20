@@ -4,13 +4,29 @@ module.exports = {
 		'arrow-return-shorthand': true,
 		'class-name': true,
 		'curly': true,
-		'cyclomatic-complexity': [ true, 10 ],
+		'cyclomatic-complexity': [
+			true,
+			10,
+		],
 		'eofline': true,
-		'indent': [ true, 'tabs' ],
-		'linebreak-style': [ true, 'LF' ],
-		'max-file-line-count': [ true, 200 ],
-		'max-line-length': [ true, 100 ],
+		'indent': [
+			true,
+			'tabs'
+		],
+		'linebreak-style': [
+			true,
+			'LF'
+		],
+		'max-file-line-count': [
+			true,
+			200
+		],
+		'max-line-length': [
+			true,
+			100
+		],
 		'new-parens': true,
+
 		'no-any': true,
 		'no-conditional-assignment': true,
 		'no-consecutive-blank-lines': true,
@@ -26,15 +42,37 @@ module.exports = {
 		'no-trailing-whitespace': true,
 		'no-unnecessary-initializer': true,
 		'no-var-keyword': true,
-		'ordered-imports': [ true, {
-			'import-sources-order': 'any',
-			'named-imports-order': 'lowercase-first'
-		}],
-		'quotemark': [ true, 'single', 'jsx-double'],
+
+		'object-literal-shorthand': true,
+		'object-literal-key-quotes': [
+			true,
+			'as-needed'
+    ],
+
+		'ordered-imports': [
+			true, {
+				'import-sources-order': 'any',
+				'named-imports-order': 'lowercase-first'
+			}
+		],
+
+		'quotemark': [
+			true,
+			'single',
+			'jsx-double'
+		],
+
 		'prefer-const': true,
 		'prefer-for-of': true,
-		'semicolon': [ true, 'always', 'ignore-interfaces' ],
+		'prefer-method-signature': true,
+
+		'semicolon': [
+			true,
+			'never'
+		],
+
 		'space-before-function-paren': [ true, 'always' ],
+
 		'trailing-comma': [ true, {
 			'multiline': {
 				'objects': 'always',
@@ -44,6 +82,7 @@ module.exports = {
 			},
 			'singleline': 'never'
 		}],
+
 		'triple-equals': true,
 		'variable-name': [
 			true,
