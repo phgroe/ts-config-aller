@@ -2,9 +2,8 @@
   "name": "@aller/ts-config-aller",
   "version": "0.0.1",
   "description": "Aller Media's TypeScript project config",
-  "main": "index.js",
+  "main": "tslint.js",
   "scripts": {
-    "postinstall": "node ts-config-aller-install.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +15,7 @@
     "typescript"
   ],
   "authors": [
-		"Ole Nedrebrø",
+    "Ole Nedrebrø",
     "Philipp Gröschler",
     "Simen Berge"
   ],
