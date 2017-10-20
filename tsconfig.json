@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"lib": [
+			"dom",
+			"es2017"
+		],
+
+		"allowJs": false,
+		"declaration": true,
+		"experimentalDecorators": true,
+
+		"jsx": "react",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"noImplicitAny": true,
+		"preserveConstEnums": true,
+		"removeComments": true,
+		"sourceMap": true,
+		"suppressImplicitAnyIndexErrors": true
+	}
+}

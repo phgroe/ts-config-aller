@@ -1,0 +1,36 @@
+{
+  "name": "@aller/ts-config-aller",
+  "version": "0.0.1",
+  "description": "Aller Media's TypeScript project config",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node ts-config-aller-install.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbmedialab/ts-config-aller.git"
+  },
+  "keywords": [
+    "tsconfig",
+    "typescript"
+  ],
+  "authors": [
+		"Ole Nedrebrø",
+    "Philipp Gröschler",
+    "Simen Berge"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbmedialab/ts-config-aller/issues"
+  },
+  "homepage": "https://github.com/dbmedialab/ts-config-aller#readme",
+  "devDependencies": {
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.0"
+  },
+  "peerDependencies": {
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.0"
+  }
+}
