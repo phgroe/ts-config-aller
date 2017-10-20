@@ -1,0 +1,12 @@
+{
+	"extends": "./node_modules/@aller/ts-config-aller/tsconfig.json",
+	"files": [
+		...
+	],
+	"include": [
+		...
+	],
+	"compilerOptions": {
+		"outDir": "dist"
+	}
+}
