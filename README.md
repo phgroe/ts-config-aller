@@ -15,8 +15,8 @@ Get started by running this command in the root of your project:
 
 ```sh
 npm install --save-dev @aller/ts-config-aller
-cp node_modules/@aller/tsconfig.example.json tsconfig.json
-cp node_modules/@aller/tslint.example.json tslint.json
+cp node_modules/@aller/ts-config-aller/tsconfig.example.json tsconfig.json
+cp node_modules/@aller/ts-config-aller/tslint.example.json tslint.json
 ```
 
 ## Setup
