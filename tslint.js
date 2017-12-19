@@ -71,7 +71,7 @@ module.exports = {
 			'never'
 		],
 
-		'space-before-function-paren': [ true, 'always' ],
+		"space-before-function-paren": [true, {"anonymous": "never", "named": "never", "asyncArrow": "always"}],
 
 		'trailing-comma': [ true, {
 			'multiline': {
