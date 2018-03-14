@@ -1,5 +1,5 @@
 {
-	"extends": "./node_modules/@aller/ts-config-aller/tsconfig.json",
+	"extends": "./node_modules/@phgroe/typescript-config/tsconfig.json",
 	"files": [
 		...
 	],
@@ -7,6 +7,6 @@
 		...
 	],
 	"compilerOptions": {
-		"outDir": "dist"
+		"outDir": "out"
 	}
 }
