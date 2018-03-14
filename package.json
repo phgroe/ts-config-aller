@@ -1,14 +1,13 @@
 {
-  "name": "@aller/ts-config-aller",
-  "version": "1.0.0",
-  "description": "Aller Media's TypeScript project config",
-  "main": "tslint.js",
+  "name": "@phgroe/typescript-config",
+  "version": "1.0.1",
+  "description": "Philipp's TypeScript config",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'Error: no test specified' && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dbmedialab/ts-config-aller.git"
+    "url": "git+https://github.com/phgroe/typescript-config.git"
   },
   "keywords": [
     "tsconfig",
@@ -20,16 +19,8 @@
     "Simen Berge"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dbmedialab/ts-config-aller/issues"
-  },
-  "homepage": "https://github.com/dbmedialab/ts-config-aller#readme",
-  "devDependencies": {
-    "tslint": "^5.7.0",
-    "typescript": "^2.5.0"
-  },
   "peerDependencies": {
     "tslint": "^5.7.0",
-    "typescript": "^2.5.0"
+    "typescript": "^2.7.0"
   }
 }
